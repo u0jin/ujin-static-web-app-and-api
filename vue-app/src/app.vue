@@ -14,6 +14,14 @@ export default {
 };
 </script>
 
+
+<script>
+      "use strict";
+      let now = new Date();
+      alert( now ); // 현재 날짜 및 시간이 출력됨
+      </script>
+
+
 <template>
   <div id="app">
     <HeaderBar />

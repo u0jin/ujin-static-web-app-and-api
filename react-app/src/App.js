@@ -33,4 +33,17 @@ class App extends Component {
   }
 }
 
+
+let today = new Date();   
+
+let year = today.getFullYear(); // 년도
+let month = today.getMonth() + 1;  // 월
+let date = today.getDate();  // 날짜
+
+
+
+document.write('<br>')
+document.write('현재 날짜는 '+year + '/' + month + '/' + date +'입니다.')
+document.write('<br>')
+
 export default App;
