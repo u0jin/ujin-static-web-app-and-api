@@ -23,5 +23,13 @@
         <Route path="**" component={PageNotFound} />
       </div>
     </main>
+
+    <script>
+      "use strict";
+      let now = new Date();
+      alert( now ); // 현재 날짜 및 시간이 출력됨
+      </script>
+      
   </Router>
 </div>
+
